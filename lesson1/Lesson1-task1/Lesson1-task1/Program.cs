@@ -14,6 +14,7 @@ namespace Lesson1_task1
             DateTime toDay = DateTime.Now;
             //Применяем интерполяцию для построения динамической строки (используем - $ перед строкой, и переменные указываем - {})
             Console.WriteLine($"{nameUser}, привет сегодня {toDay} !"); 
+            
         }
     }
 }
